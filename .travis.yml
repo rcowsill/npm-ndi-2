@@ -1,0 +1,10 @@
+os: linux
+dist: xenial
+language: node_js
+node_js:
+  - v12
+script:
+  - npm install
+  - cat package-lock.json
+  - cat node_modules/lodash/package.json
+
