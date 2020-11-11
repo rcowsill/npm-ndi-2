@@ -4,7 +4,7 @@ language: node_js
 node_js:
   - v12
 script:
+  - cat package-lock.json node_modules/lodash/package.json
   - npm install
-  - cat package-lock.json
-  - cat node_modules/lodash/package.json
+  - cat package-lock.json node_modules/lodash/package.json
 
