@@ -4,6 +4,8 @@ language: node_js
 node_js:
   - v12
 script:
+  - npm install -g npm@next-7 
+  - npm ci
   - cat package-lock.json node_modules/lodash/package.json
   - npm install
   - cat package-lock.json node_modules/lodash/package.json
