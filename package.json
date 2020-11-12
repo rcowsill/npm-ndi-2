@@ -6,5 +6,8 @@
   "dependencies": {
     "grunt-env": "latest"
   },
+  "scripts": {
+    "prepare": "npx lock-verify"
+  },
   "license": "ISC"
 }
