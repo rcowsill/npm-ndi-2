@@ -6,7 +6,7 @@ node_js:
 script:
   - npm install -g npm@next-7 
   - npm ci
-  - cat package-lock.json node_modules/lodash/package.json
+  - cat package-lock.json node_modules/d3-ease/package.json
   - npm install
-  - cat package-lock.json node_modules/lodash/package.json
+  - cat package-lock.json node_modules/d3-ease/package.json
 
