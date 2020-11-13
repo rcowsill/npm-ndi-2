@@ -1,10 +1,10 @@
 {
-  "name": "npm-ndi",
+  "name": "npm-ndi-2",
   "private": true,
   "version": "0.0.1",
   "description": "A test of npm install vs npm ci",
   "dependencies": {
-    "grunt-env": "latest"
+    "d3-ease": "next"
   },
   "scripts": {
     "prepare": "npx lock-verify"
